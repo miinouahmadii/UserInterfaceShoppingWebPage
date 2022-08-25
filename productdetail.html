@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+a:link, a:visited {
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+    margin-top: 40px;
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+  background-color: gray;
+}
+
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 6px #666;
+  transform: translateY(4px);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<ul><li> <a href="/logout" style="float: right">log out</a></li> </ul>
+
+<h2>product detail</h2>
+<p>details</p>
+
+<table style="width:100%">
+<tr>
+    <th>value</th>
+    <th>feature</th>
+</tr>
+
+<tr>
+  <td>mobile</td>
+  <td>$100</td>
+</tr>
+
+<tr>
+  <td>tv</td>
+  <td>$50</td>
+</tr>
+
+</table>
+
+<table>
+    Offers On Product
+    <tr>
+        <th>Offer id</th>
+        <th>Amount</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>25</th>
+        <th><button type="submit" >Add your product </button></th>
+    </tr>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+    margin-top: 40px;
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+  background-color: gray;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 6px #666;
+  transform: translateY(4px);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+<ul><li> <a href="/login" style="float: right">log out</a></li> </ul>
+
+<h2>product card</h2>
+
+
+<div>
+    productId :<br>productName :<br>offerId :<br>sellerId :<br>amount :
+</div>
+Total price : <input type="number" id="tentacles" name="tentacles"min="10" max="100">
+<center><button type="submit" class="loginbtn">buy</button></center>
+
+</body>
+</html>
